@@ -1,4 +1,6 @@
 #  Profile App
 
-![Screenshot](screenshot.png)
+<p align="center">
+  <img src="/screenshot.png" width="250" title="profile app">
+</p>
 
