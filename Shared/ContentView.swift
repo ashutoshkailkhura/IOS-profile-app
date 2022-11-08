@@ -51,12 +51,13 @@ struct ContentView: View {
                     Spacer()
                     
                     VStack(alignment: .center, spacing: 30){
+                        
                         RoundedRectangle(cornerRadius: 120)
-                            .frame(width: 140, height: 50, alignment: .center)
+                            .frame(width: 160, height: 50, alignment: .center)
                             .foregroundColor(.white)
                             .shadow(color: .pink, radius: 8, x: 8, y: 8)
                             .overlay(
-                                Text("Download")
+                                Text("Visit Website")
                                     .fontWeight(.bold)
                                     .foregroundColor(.pink)
                                     .font(.system(size: 20))
@@ -90,13 +91,13 @@ struct ContentView: View {
                         Text("About Me")
                             .font(.system(size: 40))
                             .font(.system(.caption))
-                        Text("I am iOS Frontend Developer, welcome to this course by hitest sir , who give free for first 1000 student , he is just awesome")
+                        Text("I am Android Developer, welcome to this course by hitest sir , he is just awesome")
                             .font(.system(.body))
                             .foregroundColor(.black)
                             .multilineTextAlignment(.center)
                             .lineLimit(4)
                             .opacity(0.7)
-                    }
+                    }.padding(20)
                 }
                 
             }
